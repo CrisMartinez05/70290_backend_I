@@ -1,0 +1,46 @@
+[
+	{
+		"id": 1,
+		"title": "Reebok Nano X3",
+		"description": "Zapatillas para running",
+		"code": "001",
+		"price": 199999,
+		"stock": 10,
+		"category": "calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 2,
+		"title": "Nike Sports Night",
+		"description": "Lo mejor para correr en la noche",
+		"code": "002",
+		"price": 285000,
+		"stock": 5,
+		"category": "calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 3,
+		"title": "Topper TopRace",
+		"description": "Cómodas, rápidas y resistentes",
+		"code": "003",
+		"price": 300000,
+		"stock": 19,
+		"category": "calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 4,
+		"title": "Fila Racer",
+		"description": "La fórmula Uno de las zapatillas conocidas",
+		"code": "004",
+		"price": 250000,
+		"stock": 14,
+		"category": "calzado",
+		"thumbnail": "#",
+		"status": true
+	}
+]

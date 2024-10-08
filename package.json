@@ -1,0 +1,17 @@
+{
+  "name": "act_para_1_preentr",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --no-warnings src/app.js",
+    "stop": "taskkill /F /IM node.exe"
+  },
+  "keywords": [],
+  "author": "Cristian Martinez",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
