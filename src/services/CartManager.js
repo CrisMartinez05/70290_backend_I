@@ -87,49 +87,6 @@ export default class CartManager {
     this.saveToFile();
 
     return cart;
-  }
-  // // Método para modificar un producto
-  // // updateProduct(id, updatedFields) {
-  // //   const updateProduct = this.#products.find((p) => p.id === id);
+  };
 
-  // //   if (!updateProduct) return null;
-
-  // //   const updatedProduct = {
-  // //     ...updateProduct,
-  // //     ...updatedFields,
-  // //     id: updateProduct.id
-  // //   };
-
-  // //   updateProduct = updatedProduct;
-
-  // //   this.saveToFile();
-
-  // //   return updateProduct;
-  // // }
-  // updateProduct(id, updatedFields){
-  //   const productIndex = this.#products.findIndex(p =>p.id === id);
-  //   if(productIndex === -1) return null;
-
-  //   const updatedProduct = {
-  //     ...this.#products[productIndex],
-  //     ...updatedFields,
-  //     id: this.#products[productIndex].id,
-  //   };
-  //   this.#products[productIndex] = updatedProduct;
-  //   this.saveToFile();
-  //   return updatedProduct;
-  // }
-
-  // // Método  para eliminar un producto de la lista.
-  // deleteProductById(id) {
-  //   const productIndex = this.#products.findIndex((p) => p.id === id);
-
-  //   if (productIndex === -1) return null;
-
-  //   const deletedProduct = this.#products.splice(productIndex, 1);
-
-  //   this.saveToFile();
-
-  //   return deletedProduct[0];
-  // }
 }
