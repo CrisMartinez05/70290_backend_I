@@ -1,3 +1,20 @@
 <div>
-    <h1>Esta plantilla está en funcionamiento!!</h1>
+    <h1>"Vivir Fitness - Lista de productos:"</h1>
+    {{#if products}}
+    {{#each products}}
+    <div>
+        <h4>Categoría: {{this.category}} - Cód: {{this.code}}</h4>
+        <h3>Id: {{this.id}} - {{this.title}}</h3>
+        <p>{{this.description}}</p>
+        <p>Stock: {{this.stock}}</p>
+        <hr>
+        <p><b>Precio: $ {{this.price}}</b></p>
+        
+
+
+    </div>
+    {{/each}}
+    {{else}}
+        <p>No hay productos para mostrar</p>
+    {{/if}}
 </div>

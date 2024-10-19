@@ -6,7 +6,7 @@
 		"code": "001",
 		"price": 199999,
 		"stock": 10,
-		"category": "calzado",
+		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
 	},
@@ -17,7 +17,7 @@
 		"code": "002",
 		"price": 285000,
 		"stock": 5,
-		"category": "calzado",
+		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
 	},
@@ -27,8 +27,8 @@
 		"description": "Cómodas, rápidas y resistentes",
 		"code": "003",
 		"price": 300000,
-		"stock": 19,
-		"category": "calzado",
+		"stock": 25,
+		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
 	},
@@ -39,7 +39,7 @@
 		"code": "004",
 		"price": 250000,
 		"stock": 14,
-		"category": "calzado",
+		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
 	},
@@ -50,7 +50,7 @@
 		"code": "005",
 		"price": 320000,
 		"stock": 12,
-		"category": "calzado",
+		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
 	},
@@ -60,8 +60,8 @@
 		"description": "La mejor zapatilla para running",
 		"code": "006",
 		"price": 380000,
-		"stock": 25,
-		"category": "calzado",
+		"stock": 22,
+		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
 	}

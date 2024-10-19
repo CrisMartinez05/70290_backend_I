@@ -3,6 +3,7 @@ import handlebars from 'express-handlebars';
 import __dirname from "./utils.js";
 import productsRouter from './routes/products.router.js';
 import cartsRouter from './routes/carts.router.js';
+import viewsRouter from './routes/views.router.js';
 
 const app = express();
 const PORT = 8080;
@@ -32,9 +33,7 @@ app.use(express.static(__dirname + '/public'));
 // });
 
 // Prueba de Hbs
-app.get('/', (req, res)=>{
-    res.render('home');
-});
+app.use('/', viewsRouter);
 
 app.listen(PORT, () => {
     console.log(`Server listening in http://${HOST}:${PORT}.`);
