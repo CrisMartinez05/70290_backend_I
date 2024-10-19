@@ -42,5 +42,27 @@
 		"category": "calzado",
 		"thumbnail": "#",
 		"status": true
+	},
+	{
+		"id": 5,
+		"title": "Assic Voss2000",
+		"description": "Lo mejor para competencias de alto rendimiento",
+		"code": "005",
+		"price": 320000,
+		"stock": 12,
+		"category": "calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 6,
+		"title": "Adidas 5.0",
+		"description": "La mejor zapatilla para running",
+		"code": "006",
+		"price": 380000,
+		"stock": 25,
+		"category": "calzado",
+		"thumbnail": "#",
+		"status": true
 	}
 ]
