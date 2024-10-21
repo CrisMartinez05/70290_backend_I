@@ -13,6 +13,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.0",
-    "express-handlebars": "^6.0.7"
+    "express-handlebars": "^6.0.7",
+    "socket.io": "^4.8.0"
   }
 }
