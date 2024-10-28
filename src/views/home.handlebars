@@ -4,8 +4,9 @@
     {{#if products}}
       {{#each products}}
       <div>
-        <p>Categoría: <b>{{this.category}}</b>  - Cód: <b>{{this.code}}</b></p>
         <h3>Id: {{this.id}} - {{this.title}}</h3>
+        <p>Categoría: <b>{{this.category}}</b></p>
+        <p>Cód: <b>{{this.code}}</b></p>
         <p>{{this.description}}</p>
         <p>Stock: <b>{{this.stock}}</b> </p>
         <p>Precio:<b> $ {{this.price}}</b></p>

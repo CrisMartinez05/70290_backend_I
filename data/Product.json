@@ -64,5 +64,16 @@
 		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
+	},
+	{
+		"id": 7,
+		"title": "adidas",
+		"description": "la mejor",
+		"code": "007",
+		"price": "100000",
+		"stock": "5",
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
 	}
 ]

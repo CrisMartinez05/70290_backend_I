@@ -6,6 +6,8 @@ import cartsRouter from './routes/carts.router.js';
 import viewsRouter from './routes/views.router.js';
 import { Server } from 'socket.io';
 
+import ProductManager from './services/ProductManager.js';
+
 const PORT = 8080;
 const HOST = 'localhost';
 
@@ -33,13 +35,29 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/api/products', productsRouter);
+
 app.use('/api/carts', cartsRouter);
 
-
-// Prueba de Hbs
 app.use('/', viewsRouter);
 
-// app.get('/', (req, res) => {
-//     res.send(`<h1 style = "color:green">70290-Programación-Backend-I
-//         2° preentrega - BIENVENIDOS!!</h1>`)
-// });
+const productManager = new ProductManager();
+
+// Sockets config
+
+io.on('connection', async (socket) => {
+
+    const products = await productManager.getProducts();
+    console.log("Socket connected");
+    
+    // Envío la lista de productos al conectarse
+
+    io.emit('products-list', {products});
+
+    socket.on('add-products', async data => {
+        await productManager.addProduct(data);
+        const products = await productManager.getProducts();
+
+        io.emit('products-list', {products});
+            
+    });
+})

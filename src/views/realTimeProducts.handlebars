@@ -1,6 +1,43 @@
-<div>
+<header>
+    <h1>VIVIR FITNESS</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Productos</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; width: 60%">
+            <div style="height: auto; border: solid 1px black;">
+                <ul id="products-list" style="list-style-position: inside; padding: 0; margin: 0.25rem;"></ul>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Registro de productos</h2>
+        <form id="productsForm" style="display: flex; flex-direction: column; gap: 0.5rem; width: 300px">
+
+            <input type="text" name="title" placeholder="Nombre del producto" required>
+
+            <input type="text" name="description" placeholder="Descripción" required>
+
+            <input type="text" name="code" placeholder="Código" required>
+
+            <input type="number" name="price" placeholder="Precio" required>
+
+            <input type="number" name="stock" placeholder="Cantidad en stock" required>
+
+            <input type="text" name="category" placeholder="Categoría" required>
+
+            <input type="file" name="thumbnail" id="">
+
+            <input type="submit" value="Guardar" style="width: 100%">
+        </form>
+    </section>
+</main>
+{{!-- <div>
     <h1>Registro de productos</h1>
-    <form id="registerProducts">
+    <form id="addProducts">
         <label for="title">Nombre</label>
         <input type="text" name="title" required>
         <br><br>
@@ -34,24 +71,8 @@
     </form>
 </div>
 
-<hr>
+<hr> --}}
 
-<div>
-    {{#if products}}
-      {{#each products}}
-      <div>
-        <p>Categoría: <b>{{this.category}}</b>  - Cód: <b>{{this.code}}</b></p>
-        <h3>Id: {{this.id}} - {{this.title}}</h3>
-        <p>{{this.description}}</p>
-        <p>Stock: <b>{{this.stock}}</b> </p>
-        <p>Precio:<b> $ {{this.price}}</b></p>
-        <hr />
-      </div>
-      {{/each}}
-    {{else}}
-      <p>No hay productos para mostrar</p>
-    {{/if}}
-  </div>
 
 
 <script src="/socket.io/socket.io.js"></script>
