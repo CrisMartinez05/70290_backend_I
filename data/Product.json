@@ -75,5 +75,27 @@
 		"category": "Calzado",
 		"thumbnail": "#",
 		"status": true
+	},
+	{
+		"id": 8,
+		"title": "Puma Caven 2.0",
+		"description": "El exterior derrocha la auténtica esencia de PUMA y la plantilla SOFTFOAM+ ofrece una amortiguación superior y una comodidad excepcional a cada paso.",
+		"code": "008",
+		"price": "99999",
+		"stock": "5",
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 9,
+		"title": "Puma Suede Classic XXI to kids",
+		"description": "Las Zapatillas Puma Suede Classic Xxi para Niños son un clásico infaltable en en los días de los más chicos. Presentan una parte superior en gamuza junto con algunos toques en sintético moderno. Su suela está fabricada de goma y su mayor beneficio es la durabilidad a través del tiempo. Ir al jardín, salir de paseo, cualquiera sea el plan, estas zapatillas siempre son una excelente opción que combinan con lo que haya en su ropero!",
+		"code": "009",
+		"price": "64999",
+		"stock": "10",
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
 	}
 ]

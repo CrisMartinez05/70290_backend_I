@@ -54,6 +54,9 @@ export default class ProductManager {
 
   // Método para mostrar la lista completa de productos.
   getProducts(limit) {
+
+    this.#init();
+    
     if (limit) {
       return this.#products.slice(0, limit);
     }
