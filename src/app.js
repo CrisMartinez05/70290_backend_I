@@ -1,12 +1,13 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
 import __dirname from "./utils.js";
+
 import productsRouter from './routes/products.router.js';
 import cartsRouter from './routes/carts.router.js';
 import viewsRouter from './routes/views.router.js';
 import { Server } from 'socket.io';
 
-import ProductManager from './services/ProductManager.js';
+import ProductManager from './services/filesystem/ProductManager.js';
 
 const PORT = 8080;
 const HOST = 'localhost';
