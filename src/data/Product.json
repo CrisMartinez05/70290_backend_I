@@ -1,0 +1,134 @@
+[
+	{
+		"id": 1,
+		"title": "Reebok Nano X3",
+		"description": "Zapatillas para running",
+		"code": "001",
+		"price": 199999,
+		"stock": 10,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 2,
+		"title": "Nike Sports Night",
+		"description": "Lo mejor para correr en la noche",
+		"code": "002",
+		"price": 285000,
+		"stock": 5,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 3,
+		"title": "Topper TopRace",
+		"description": "Cómodas, rápidas y resistentes",
+		"code": "003",
+		"price": 300000,
+		"stock": 25,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 4,
+		"title": "Fila Racer",
+		"description": "La fórmula Uno de las zapatillas conocidas",
+		"code": "004",
+		"price": 250000,
+		"stock": 14,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 5,
+		"title": "Assic Voss2000",
+		"description": "Lo mejor para competencias de alto rendimiento",
+		"code": "005",
+		"price": 340000,
+		"stock": 10,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 7,
+		"title": "Adidas Boost SuperSpeed",
+		"description": "Especialmente diseñadas para carreras de velocidad",
+		"code": "007",
+		"price": "100000",
+		"stock": 5,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 8,
+		"title": "Puma Caven 2.0",
+		"description": "El exterior derrocha la auténtica esencia de PUMA y la plantilla SOFTFOAM+ ofrece una amortiguación superior y una comodidad excepcional a cada paso.",
+		"code": "008",
+		"price": "99999",
+		"stock": 5,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 9,
+		"title": "Puma Suede Classic XXI to kids",
+		"description": "Las Zapatillas Puma Suede Classic Xxi para Niños son un clásico infaltable en en los días de los más chicos. Presentan una parte superior en gamuza junto con algunos toques en sintético moderno. Su suela está fabricada de goma y su mayor beneficio es la durabilidad a través del tiempo. Ir al jardín, salir de paseo, cualquiera sea el plan, estas zapatillas siempre son una excelente opción que combinan con lo que haya en su ropero!",
+		"code": "009",
+		"price": "64999",
+		"stock": 10,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 10,
+		"title": "Fila Energized",
+		"description": "Excelentes para caminatas de larga distancia y carreras cortas en pavimento o pistas...",
+		"code": "010",
+		"price": "88999",
+		"stock": 5,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 11,
+		"title": "Adidas 5.0",
+		"description": "La mejor zapatilla para running",
+		"code": "006",
+		"price": 360000,
+		"stock": 25,
+		"category": "calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 12,
+		"title": "Adidas 5.1",
+		"description": "Mejor que la 5.0",
+		"code": "011",
+		"price": 400000,
+		"stock": 5,
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	},
+	{
+		"id": 13,
+		"title": "Fila XTZ 2",
+		"description": "Ligeras, cómodas y resistentes a todo tipo de terreno.",
+		"code": "012",
+		"price": "159999",
+		"stock": "2",
+		"category": "Calzado",
+		"thumbnail": "#",
+		"status": true
+	}
+]

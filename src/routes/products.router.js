@@ -1,6 +1,6 @@
 import { Router } from "express";     
 import ProductManager from '../services/filesystem/ProductManager.js';                                          
-
+// import ProductManager from "../services/db/ProductManagers.js";
 const router = Router();
 
 // Instancia de la clase ProductManager
@@ -51,7 +51,7 @@ router.post('/', async(req, res)=>{
 
         // Validación de código único(code)        
         const product = {title, description, code, price, stock, category, thumbnails};
-
+            
             if (productManager.validarCode(product.code)) {
                 return res.status(400).json({error:"No se pudo ingresar el producto debido a que su código ya fue asignado."});               
             };          
